@@ -1,6 +1,6 @@
 import { createLocalVue, mount } from '@vue/test-utils'
 // import Vue from 'vue/dist/vue.esm.js'
-import 'vue-template-compiler'
+// import 'vue-template-compiler'
 import MuttVue from '@mutt/widgets-vue'
 
 import App from '@/App.vue'

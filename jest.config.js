@@ -4,6 +4,7 @@ module.exports = {
     'node_modules/(?!@mutt/forms|@mutt/widgets-vue)',
   ],
   moduleNameMapper: {
+    '^vue$': 'vue/dist/vue.common.js',
     // '^@/(.*)$': '<rootDir>/src/$1',
     // '^@mutt/forms$': '<rootDir>/node_modules/@mutt/forms/dist/mutt-forms.es.js',
     // '^@mutt/widgets-vue$': '<rootDir>/node_modules/@mutt/widgets-vue/dist/mutt-forms-vue.es.js',

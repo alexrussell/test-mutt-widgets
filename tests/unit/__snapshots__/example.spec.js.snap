@@ -1,0 +1,654 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App.vue should render correctly 1`] = `
+<div
+  id="app"
+>
+  <div
+    class="row"
+  >
+    <div
+      class="col-lg-6"
+    >
+      <h3>
+        Form.
+      </h3>
+       
+      <form
+        role="form"
+      >
+        <fieldset>
+          <!---->
+           
+          <div
+            class="mutt-field-wrapper testing-wrapper-class"
+          >
+            <label
+              class="mutt-label"
+              for="textField"
+            >
+              
+  Text Field
+
+            </label>
+             
+            <!---->
+             
+            <input
+              class="mutt-field mutt-field-text input"
+              id="textField"
+              name="textField"
+              placeholder=""
+              type="text"
+            />
+             
+            <!---->
+             
+            <!---->
+          </div>
+          <div
+            class="mutt-field-wrapper"
+          >
+            <label
+              class="mutt-label"
+              for="textField1"
+            >
+              
+  Text Field 1
+
+            </label>
+             
+            <!---->
+             
+            <input
+              class="mutt-field mutt-field-text input"
+              id="textField1"
+              name="textField1"
+              placeholder=""
+              type="text"
+            />
+             
+            <!---->
+             
+            <!---->
+          </div>
+          <div
+            class="mutt-field-wrapper"
+          >
+            <label
+              class="mutt-label"
+              for="textareaField"
+            >
+              
+  Textarea Field
+
+            </label>
+             
+            <!---->
+             
+            <textarea
+              class="mutt-field mutt-field-textarea"
+              id="textareaField"
+              name="textareaField"
+              placeholder=""
+            />
+             
+            <!---->
+             
+            <!---->
+          </div>
+          <div
+            class="mutt-field-wrapper"
+          >
+            <label
+              class="mutt-label"
+              for="numberField"
+            >
+              
+  Number Field
+
+            </label>
+             
+            <!---->
+             
+            <input
+              class="mutt-field mutt-field-number"
+              id="numberField"
+              name="numberField"
+              placeholder=""
+              type="number"
+            />
+             
+            <!---->
+             
+            <!---->
+          </div>
+          <div
+            class="mutt-field-wrapper--checkbox mutt-field-wrapper"
+          >
+            <label
+              class="mutt-label mutt-label"
+              for="checkboxField"
+            >
+              
+  Checkbox Field
+
+            </label>
+             
+            <!---->
+             
+            <input
+              class="mutt-field mutt-field-checkbox"
+              id="checkboxField"
+              name="checkboxField"
+              type="checkbox"
+            />
+             
+            <!---->
+             
+            <!---->
+          </div>
+          <div
+            class="mutt-field-wrapper"
+          >
+            <label
+              class="mutt-label"
+              for="choiceField"
+            >
+              
+  Choice Field
+
+            </label>
+             
+            <!---->
+             
+            <div
+              class="mutt-field-choice-wrap select"
+            >
+              <select
+                class="mutt-field mutt-field-choice"
+                id="choiceField"
+                name="choiceField"
+              >
+                <option
+                  default="default"
+                  hidden="hidden"
+                  value=""
+                >
+                  
+        Please select one
+      
+                </option>
+                 
+                <option
+                  value="FIRST"
+                >
+                  
+        First
+      
+                </option>
+                <option
+                  value="SECOND"
+                >
+                  
+        Second
+      
+                </option>
+              </select>
+            </div>
+             
+            <!---->
+             
+            <!---->
+          </div>
+          <div
+            class="mutt-field-wrapper--checkbox mutt-field-wrapper--radio mutt-field-wrapper"
+          >
+            <label
+              class="mutt-label"
+              for="radioField"
+            >
+              
+  Radio Field
+
+            </label>
+             
+            <div
+              class="mutt-field-radio-item"
+            >
+              <input
+                class="mutt-field mutt-field-radio"
+                id="radioField_field_7-FIRST"
+                name="radioField_field_7"
+                type="radio"
+                value="FIRST"
+              />
+               
+              <label
+                class="mutt-label"
+                for="radioField_field_7-FIRST"
+              >
+                FIRST
+              </label>
+            </div>
+            <div
+              class="mutt-field-radio-item"
+            >
+              <input
+                class="mutt-field mutt-field-radio"
+                id="radioField_field_7-SECOND"
+                name="radioField_field_7"
+                type="radio"
+                value="SECOND"
+              />
+               
+              <label
+                class="mutt-label"
+                for="radioField_field_7-SECOND"
+              >
+                SECOND
+              </label>
+            </div>
+             
+            <!---->
+             
+            <!---->
+             
+            <!---->
+          </div>
+          <div
+            class="mutt-field-wrapper--checkbox mutt-field-wrapper--radio mutt-field-wrapper"
+          >
+            <label
+              class="mutt-label"
+              for="radioBooleanField"
+            >
+              
+  Radio Boolean Field
+
+            </label>
+             
+            <div
+              class="mutt-field-radio-item"
+            >
+              <input
+                class="mutt-field mutt-field-radio"
+                id="radioBooleanField_field_8-true"
+                name="radioBooleanField_field_8"
+                type="radio"
+                value="true"
+              />
+               
+              <label
+                class="mutt-label"
+                for="radioBooleanField_field_8-true"
+              >
+                A - True
+              </label>
+            </div>
+            <div
+              class="mutt-field-radio-item"
+            >
+              <input
+                class="mutt-field mutt-field-radio"
+                id="radioBooleanField_field_8-false"
+                name="radioBooleanField_field_8"
+                type="radio"
+                value="false"
+              />
+               
+              <label
+                class="mutt-label"
+                for="radioBooleanField_field_8-false"
+              >
+                B - False
+              </label>
+            </div>
+             
+            <!---->
+             
+            <!---->
+             
+            <!---->
+          </div>
+          <div
+            class="mutt-field-wrapper mutt-field-array-wrapper"
+          >
+            <div
+              class="mutt-field-array-item mutt-field-array-item-0"
+            >
+              <div
+                class="mutt-field-wrapper"
+              >
+                <label
+                  class="mutt-label"
+                  for="arrayField_1"
+                >
+                  
+  Array Field
+
+                </label>
+                 
+                <!---->
+                 
+                <input
+                  class="mutt-field mutt-field-text input"
+                  id="arrayField_1"
+                  name="arrayField_1"
+                  placeholder=""
+                  type="text"
+                />
+                 
+                <!---->
+                 
+                <!---->
+              </div>
+               
+              <!---->
+            </div>
+            <div
+              class="mutt-field-array-item mutt-field-array-item-1"
+            >
+              <div
+                class="mutt-field-wrapper"
+              >
+                <label
+                  class="mutt-label"
+                  for="arrayField_2"
+                >
+                  
+  Array Field
+
+                </label>
+                 
+                <!---->
+                 
+                <input
+                  class="mutt-field mutt-field-text input"
+                  id="arrayField_2"
+                  name="arrayField_2"
+                  placeholder=""
+                  type="text"
+                />
+                 
+                <!---->
+                 
+                <!---->
+              </div>
+               
+              <!---->
+            </div>
+             
+            <!---->
+             
+            <div>
+              <button>
+                +
+              </button>
+               
+              <button>
+                -
+              </button>
+            </div>
+          </div>
+          <div
+            class="mutt-field-wrapper"
+          >
+            <fieldset
+              class="mutt-field mutt-field-object"
+            >
+              <legend>
+                Object Field
+              </legend>
+               
+              <div
+                class="mutt-field-wrapper"
+              >
+                <label
+                  class="mutt-label"
+                  for="firstName"
+                >
+                  
+  First Name
+
+                </label>
+                 
+                <!---->
+                 
+                <input
+                  class="mutt-field mutt-field-text input"
+                  id="firstName"
+                  name="firstName"
+                  placeholder=""
+                  type="text"
+                />
+                 
+                <!---->
+                 
+                <!---->
+              </div>
+              <div
+                class="mutt-field-wrapper"
+              >
+                <label
+                  class="mutt-label"
+                  for="lastName"
+                >
+                  
+  Last Name
+
+                </label>
+                 
+                <!---->
+                 
+                <input
+                  class="mutt-field mutt-field-text input"
+                  id="lastName"
+                  name="lastName"
+                  placeholder=""
+                  type="text"
+                />
+                 
+                <!---->
+                 
+                <!---->
+              </div>
+            </fieldset>
+          </div>
+          <div
+            class="mutt-field-wrapper mutt-field-array-wrapper"
+          >
+            <div
+              class="mutt-field-array-item mutt-field-array-item-0"
+            >
+              <div
+                class="mutt-field-wrapper"
+              >
+                <fieldset
+                  class="mutt-field mutt-field-object"
+                >
+                  <legend>
+                    arrayObjField_1
+                  </legend>
+                   
+                  <div
+                    class="mutt-field-wrapper"
+                  >
+                    <label
+                      class="mutt-label"
+                      for="firstName"
+                    >
+                      
+  firstName
+
+                    </label>
+                     
+                    <!---->
+                     
+                    <input
+                      class="mutt-field mutt-field-text input"
+                      id="firstName"
+                      name="firstName"
+                      placeholder=""
+                      type="text"
+                    />
+                     
+                    <!---->
+                     
+                    <!---->
+                  </div>
+                  <div
+                    class="mutt-field-wrapper"
+                  >
+                    <label
+                      class="mutt-label"
+                      for="lastName"
+                    >
+                      
+  lastName
+
+                    </label>
+                     
+                    <!---->
+                     
+                    <input
+                      class="mutt-field mutt-field-text input"
+                      id="lastName"
+                      name="lastName"
+                      placeholder=""
+                      type="text"
+                    />
+                     
+                    <!---->
+                     
+                    <!---->
+                  </div>
+                </fieldset>
+              </div>
+               
+              <button>
+                
+      Remove
+    
+              </button>
+            </div>
+            <div
+              class="mutt-field-array-item mutt-field-array-item-1"
+            >
+              <div
+                class="mutt-field-wrapper"
+              >
+                <fieldset
+                  class="mutt-field mutt-field-object"
+                >
+                  <legend>
+                    arrayObjField_2
+                  </legend>
+                   
+                  <div
+                    class="mutt-field-wrapper"
+                  >
+                    <label
+                      class="mutt-label"
+                      for="firstName"
+                    >
+                      
+  firstName
+
+                    </label>
+                     
+                    <!---->
+                     
+                    <input
+                      class="mutt-field mutt-field-text input"
+                      id="firstName"
+                      name="firstName"
+                      placeholder=""
+                      type="text"
+                    />
+                     
+                    <!---->
+                     
+                    <!---->
+                  </div>
+                  <div
+                    class="mutt-field-wrapper"
+                  >
+                    <label
+                      class="mutt-label"
+                      for="lastName"
+                    >
+                      
+  lastName
+
+                    </label>
+                     
+                    <!---->
+                     
+                    <input
+                      class="mutt-field mutt-field-text input"
+                      id="lastName"
+                      name="lastName"
+                      placeholder=""
+                      type="text"
+                    />
+                     
+                    <!---->
+                     
+                    <!---->
+                  </div>
+                </fieldset>
+              </div>
+               
+              <button>
+                
+      Remove
+    
+              </button>
+            </div>
+             
+            <!---->
+             
+            <div>
+              <button>
+                +
+              </button>
+               
+              <button>
+                -
+              </button>
+            </div>
+          </div>
+          <div
+            class="mutt-field-wrapper"
+          >
+            <input
+              class="mutt-field mutt-field-hidden"
+              name="hiddenField"
+              type="hidden"
+            />
+          </div>
+           
+          <button>
+            Submit
+          </button>
+        </fieldset>
+      </form>
+       
+      <button>
+        Readonly
+      </button>
+       
+      <!---->
+       
+      <!---->
+    </div>
+     
+    <div
+      class="col-lg-6"
+    >
+      <!---->
+    </div>
+  </div>
+</div>
+`;
